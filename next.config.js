@@ -4,6 +4,4 @@ module.exports = {
 
   // for static export
   output: "export",
-
-  // images: { unoptimized: true },
 };
