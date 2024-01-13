@@ -1,0 +1,9 @@
+@layer reset, base, tokens, recipes, utilities;
+
+body {
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
