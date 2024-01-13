@@ -334,10 +334,18 @@ export default function Page() {
       <DayImage imagePath="/day2/possum-03.webp" />
       <DayImage imagePath="/day2/possum-04.webp" />
 
+      <DayText>ネズミも現れた。器用に高いところに登っていく。</DayText>
       <DayText>
-        ネズミも現れた。なんという種類のネズミか忘れたが、器用に高いところに登っていく。
+        英名はジャイアント・ホワイト・テール・ラットとのことだが、日本名はオオハダカオネズミ。
+        <br />
+        ロックバンドの邦訳がダサいアルバムのようだ。
       </DayText>
-
+      <DayText>
+        <ExternalLink
+          href="https://en.wikipedia.org/wiki/Giant_white-tailed_rat"
+          text="Wikipedia - オオハダカオネズミ"
+        />
+      </DayText>
       <DayImage imagePath="/day2/possum-05.webp" />
       <DayImage imagePath="/day2/possum-06.webp" />
 
