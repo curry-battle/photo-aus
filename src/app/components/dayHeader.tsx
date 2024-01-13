@@ -2,9 +2,9 @@
 
 import { jetBrainsMono } from "styles/font";
 import { css } from "../../../styled-system/css";
-import Image from "next/image";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
+import { BASE_PATH } from "env";
 
 const styles = {
   container: css({
@@ -56,8 +56,8 @@ export default function DayHeader({
           className={`${styles.title} ${jetBrainsMono.className}`}
           ref={el}
         />
-        <Image
-          src={imagePath}
+        <img
+          src={`${BASE_PATH}${imagePath}`}
           className={styles.image}
           width={976}
           height={549}

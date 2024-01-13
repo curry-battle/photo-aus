@@ -52,7 +52,6 @@ export default function RootLayout({
   // 適当でダサいけど面倒くさいからもういいや
   const match = pathname.match(/\/day([1-8])\//);
   const isError = !match;
-  console.log(match);
   const currentDayNum = isError ? undefined : Number(match[1]);
   const currentDayPath = isError ? undefined : `day${currentDayNum}`;
   const isLastDay = currentDayNum === 8;

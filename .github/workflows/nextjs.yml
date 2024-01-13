@@ -27,6 +27,10 @@ concurrency:
 jobs:
   # Build job
   build:
+    env:
+      NEXT_PUBLIC_PROTOCOL: https
+      NEXT_PUBLIC_HOST: curry-battle.github.io
+      NEXT_PUBLIC_PATH: /photo-aus
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

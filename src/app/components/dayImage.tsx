@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { BASE_PATH } from "env";
 import { css } from "../../../styled-system/css";
 
 const styles = {
@@ -33,8 +33,8 @@ export default function DayImage({
   return (
     <>
       <div className={`${styles.container} ${marginTop}`}>
-        <Image
-          src={imagePath}
+        <img
+          src={`${BASE_PATH}${imagePath}`}
           className={styles.image}
           width={976}
           height={649}

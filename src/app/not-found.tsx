@@ -1,5 +1,5 @@
 import { css } from "../../styled-system/css";
-import Image from "next/image";
+import { BASE_PATH } from "env";
 
 const styles = {
   container: css({
@@ -14,7 +14,7 @@ export default function NotFound() {
   return (
     <div className={styles.container}>
       <h2>404</h2>
-      <Image src="/404.png" width={300} height={300} alt="" />
+      <img src={`${BASE_PATH}/404.png`} width={300} height={300} alt="" />
     </div>
   );
 }
