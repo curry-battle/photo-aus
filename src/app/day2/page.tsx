@@ -212,9 +212,9 @@ export default function Page() {
       <DayImage imagePath="/day2/ant-03.webp" />
       <DayImage imagePath="/day2/ant-04.webp" />
       <DayText>
-        「パクチーみたいな味がするでしょ！」とガイドの方が嬉しそうに語る。
+        「パセリみたいな味がするでしょ！」とガイドの方が嬉しそうに語る。
         <br />
-        最初よくわからなかったが、「おかわりもあるよ」ということで2匹目を頂くと確かにパクチーっぽい味がした。
+        最初よくわからなかったが、「おかわりもあるよ」ということで2匹目を頂くと確かにパセリっぽい味がした。
       </DayText>
 
       <Devider />
