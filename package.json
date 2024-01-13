@@ -15,6 +15,7 @@
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-lazy-load": "^4.0.1",
     "styled-components": "^6.0.7",
     "typed.js": "^2.1.0"
   },

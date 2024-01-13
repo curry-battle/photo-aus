@@ -1,5 +1,8 @@
+"use client";
+
 import { BASE_PATH } from "env";
 import { css } from "../../../styled-system/css";
+import LazyLoad from "react-lazy-load";
 
 const styles = {
   container: css({
@@ -33,13 +36,15 @@ export default function DayImage({
   return (
     <>
       <div className={`${styles.container} ${marginTop}`}>
-        <img
-          src={`${BASE_PATH}${imagePath}`}
-          className={styles.image}
-          width={976}
-          height={649}
-          alt=""
-        />
+        <LazyLoad>
+          <img
+            src={`${BASE_PATH}${imagePath}`}
+            className={styles.image}
+            width={976}
+            height={649}
+            alt=""
+          />
+        </LazyLoad>
       </div>
     </>
   );
