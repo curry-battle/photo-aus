@@ -17,9 +17,16 @@ export default function Page() {
       <DayText>
         オーストラリアではカフェ文化が盛んであり、その勢いは凄まじくチェーンのコーヒー店が放逐されるほどである。
         <br />
+        スタバに至っては2014年に撤退した。撤退と言いつつ店舗自体はまだいくつか残り、運営権が地元企業に売却されたようだ。
+        <br />
         思えば旅行中にスタバを1件も見なかった。
       </DayText>
-
+      <DayText>
+        <ExternalLink
+          href="https://www.nikkei.com/article/DGXNASGM1902N_Z10C14A6FF1000/"
+          text="日本経済新聞 - スタバ、豪から「撤退」 地場コーヒー文化に敗北"
+        />
+      </DayText>
       <DayImage imagePath="/day5/cafe-02.webp" />
       <DayText>
         更にはカフェの営業が朝早く、6時から営業するようなところもある。
